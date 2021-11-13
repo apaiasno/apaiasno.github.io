@@ -144,15 +144,16 @@ input, select, textarea {
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		text-decoration: white;
-		color: white;
+		text-decoration: none;
+		color: #FFFFFF;
 		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 			color: #B4A9DD !important;
-			text-decoration-color: B4A9DD;
+			text-decoration-color: #B4A9DD;
+			-webkit-text-decoration-color: #B4A9DD;
 		}
 
 	strong, b {
