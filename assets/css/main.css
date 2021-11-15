@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("assets/css/academicons.min.css")
+@import url('https://fonts.googleapis.com/css?family=Exo')
 
 /*
 	Phantom by HTML5 UP
@@ -31,6 +33,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	font-family: 'Exo';
 }
 
 ol, ul {
@@ -71,6 +74,13 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+footer { 
+			color: #626262;
+}
+footer a { 
+	color: #626262;
+} 
 
 /* Basic */
 
