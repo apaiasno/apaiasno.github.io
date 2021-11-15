@@ -2924,7 +2924,7 @@ footer a {
 								content: '';
 								display: inline-block;
 								height: 3.75em;
-								vertical-align: top;
+								vertical-align: middle;
 								width: 2em;
 							}
 
