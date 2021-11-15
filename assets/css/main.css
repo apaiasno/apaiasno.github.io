@@ -2845,7 +2845,7 @@ footer a {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #3e210c;
+		background: #394159;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -2853,6 +2853,7 @@ footer a {
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		font-size: 5px;
 	}
 
 		#header h1 {
