@@ -2849,10 +2849,10 @@ footer a {
 		background: #394159;
 		/*Opacity start*/
 	    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	    filter: alpha(opacity=50);
-	    -moz-opacity: 0.50;
-	    -khtml-opacity: 0.5;
-	    opacity: 0.5;
+	    filter: alpha(opacity=80);
+	    -moz-opacity: 0.80;
+	    -khtml-opacity: 0.8;
+	    opacity: 0.8;
 	    /*Opacity end*/
 		height: 3em;
 		left: 0;
