@@ -2855,7 +2855,7 @@ footer a {
 		z-index: 10000;
 	}
 
-		#header h1 {
+		#header h3 {
 			-moz-transition: opacity 0.2s ease;
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
@@ -2867,7 +2867,7 @@ footer a {
 			top: 0;
 		}
 
-			#header h1 a {
+			#header h3 a {
 				border: 0;
 				display: block;
 				height: inherit;
