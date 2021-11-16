@@ -3206,19 +3206,19 @@ footer a {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: #614D4E;
+			background-color: #8088AD;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: #BF9D7E;
-		}
-
-		.spotlight:nth-child(3) {
 			background-color: #614D4E;
 		}
 
+		.spotlight:nth-child(3) {
+			background-color: #8088AD;
+		}
+
 		.spotlight:nth-child(4) {
-			background-color: #BF9D7E;
+			background-color: #614D4E;
 		}
 
 		.spotlight:nth-child(5) {
