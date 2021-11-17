@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	background: url('../images/craterLake.jpg');
+	background: url('../../../images/craterLake.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
