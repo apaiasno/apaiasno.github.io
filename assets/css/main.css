@@ -3226,12 +3226,12 @@ footer a {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 10px;
+			border-radius: 0.5em;
 			width: 40%;
 		}
 
 			.spotlight .image img {
-				border-radius: 10px;
+				border-radius: 0.5em;
 				width: 100%;
 			}
 
