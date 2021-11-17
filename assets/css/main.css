@@ -2862,12 +2862,13 @@ footer a {
 	    opacity: 0.8;
 	    /*Opacity end*/
 		height: 4em;
-		left: 1em;
+		left: 0;
 		line-height: 3em;
 		position: fixed;
 		width: 100%;
-		top: 1.5em;
+		top: 0;
 		display: inline;
+		vertical-align: middle;
 		z-index: 10000;
 	}
 
