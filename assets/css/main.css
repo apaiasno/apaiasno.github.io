@@ -2861,12 +2861,12 @@ footer a {
 	    -khtml-opacity: 0.8;
 	    opacity: 0.8;
 	    /*Opacity end*/
-		height: 2em;
-		left: 0;
+		height: 4em;
+		left: 1em;
 		line-height: 3em;
 		position: fixed;
 		width: 100%;
-		top: 0;
+		top: 1.5em;
 		display: inline;
 		z-index: 10000;
 	}
@@ -2964,7 +2964,7 @@ footer a {
 							height: 100%;
 							background-position: center;
 							background-repeat: no-repeat;
-							background-size: 1em 1em;
+							background-size: 2em 2em;
 						}
 
 						#header nav ul li a[href="#menu"]:before {
