@@ -3224,7 +3224,7 @@ footer a {
 		}
 
 			.spotlight .image img {
-				border-radius: 0;
+				border-radius: 10px;
 				width: 100%;
 			}
 
