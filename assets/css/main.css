@@ -2871,6 +2871,11 @@ footer a {
 		vertical-align: middle;
 		z-index: 10000;
 	}
+	
+		#header h3{
+			vertical-align: middle;
+			margin-left: 1em;
+		}
 
 		#header .logo {
 			display: block;
