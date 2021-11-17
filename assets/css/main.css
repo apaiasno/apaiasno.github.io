@@ -39,6 +39,7 @@ body {
 	font-family: 'Exo';
 	color: white;
 	padding-top: 65px;
+	line-height: 1;
 }
 
 ol, ul {
