@@ -2903,6 +2903,7 @@ footer a {
 			right: 1em;
 			top: 0.5em;
 			z-index: 10000;
+			display:inline;
 		}
 
 			#header nav ul {
