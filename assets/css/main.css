@@ -2867,7 +2867,7 @@ footer a {
 		position: fixed;
 		width: 100%;
 		top: 0;
-		display: inline-block;
+		text-align: center;
 		z-index: 10000;
 	}
 
