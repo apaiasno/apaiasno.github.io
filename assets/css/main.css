@@ -2854,6 +2854,13 @@ footer a {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #394159;
+		/*Opacity start*/
+	    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	    filter: alpha(opacity=80);
+	    -moz-opacity: 0.80;
+	    -khtml-opacity: 0.8;
+	    opacity: 0.8;
+	    /*Opacity end*/
 		height: 3em;
 		left: 0;
 		line-height: 3em;
