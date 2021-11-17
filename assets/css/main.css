@@ -3187,7 +3187,7 @@ footer a {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 0;
+			border-radius: 10px;
 			width: 40%;
 		}
 
