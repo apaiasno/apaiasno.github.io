@@ -3226,7 +3226,7 @@ footer a {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding: 1em;
+			padding: 0em;
 			width: 40%;
 		}
 
