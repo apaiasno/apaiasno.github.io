@@ -3231,17 +3231,18 @@ footer a {
 		}
 
 			.spotlight .image img {
-				padding: 2em 0.5em 2em 2em;
+				padding: 2em;
 				width: 100%;
 			}
 
 		.spotlight .content {
-			padding: 2em 1em 2em 4em ;
+			padding: 2em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
 			width: 60%;
+			text-align: justify
 		}
 
 		.spotlight:nth-child(2n) {
