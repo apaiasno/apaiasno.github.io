@@ -7,6 +7,14 @@
 <html>
 	<head>
 		<title>Research</title>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- 		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript"
+			src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script> -->
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -60,21 +68,30 @@
 							<h1>Research</h1>
 							<section id="two" class="wrapper alt style2">
 							   <section class="spotlight" style="background-size: 100% auto;">
-							       <div class="image"><img src="images/TransSpec.png" alt="" /></div><div class="content">
-								   <h2>Exoplanets: Detecting Potential Biosignatures<br />
-								   </h2>
-								   <p>I am currently working with <a href="https://www.jiwang.io" > Dr. Ji Wang </a> on determing whether ammonia (a potential biosignature) in hydrogen and nitrogen dominated atmospheres of gas dwarfs is detectable with  <i>JWST</i> and <i>Twinkle</i>. Gas dwarfs are more amendable targts than Earth-like planets for transit observations because of their larger radii and  atmospheric scale heights due to potentially hydrogen-dominated atmospheres.</p>
-								    <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210912132P/abstract" class="button primary small">Learn More</a>
-
-
+							       <div class="image">
+									   <img src="images/KELT-9b.gif" alt="" />
+									   <p style="text-align: center;"> KELT-9 b, the hottest known planet <i>(NASA/JPL-Caltech)</i> </p>
+									   <img src="images/TransSpec.png" alt="" />
+									   <p style="text-align: center;"> Transmission spectra of KELT-9 b <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211015275P/abstract"><i>(Pai Asnodkar et al. 2021)</i></a> </p>
+								   </div>
+								   <div class="content">
+									   <h2>Ultra-hot Jupiter atmospheres<br />
+									   </h2>
+									   <p>I am currently working with <a href="https://www.jiwang.io" > Professor Ji Wang </a> on observationally constraining atmospheric dynamics on <b style="color:#B4A9DD;"><i>ultra-hot Jupiters</i></b> (\(T_{eq} \gtrsim 2200)\) K) . Due to their close proximity to their host stars (\(P \lesssim 3\) days), these planets experience very intense stellar irradiation which drives global winds on observable scales. We probe these wind velocities using <b style="color:#B4A9DD;"><i>transmission spectroscopy</i></b>. As a transiting planet passes in front of its host star, the starlight is absorbed at certain wavelengths that correspond to different species, e.g. atomic and ionized metal species in the optical, present in these extreme atmospheres. The Doppler signature of the planet's atmospheric absorption signature reveals the overall orbital motion of the planet as well as an additional effect from atmospheric winds, such as day-to-nightside winds and equatorial jets on hot Jupiters. Atmospheric dynamics plays a critical role in determing the energy budget, compositional/thermal gradient, and evolution of these highly irradiated planets. </p>
+									   <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211015275P/abstract" class="button primary small">Paper 1</a> <a href="#" class="button primary small">Paper 2, coming soon</a>
 							       </div>
 							   </section>
 							   <section class="spotlight" style="background-size: 100% auto;">
-							       <div class="image"><img src="images/LBT.jpg" alt="" /></div><div class="content">
-								   <h2>Brown Dwarf Companions <br />
-							       </h2>
-								   <p> Brown dwarfs straddle the mass region between gas giant planets and low-mass stars and can similar atmopsheric properties of gas giants. They are observationally easier to charactrize, thus we can learn more about the properties of gas giants by studying them. However, brown dwarf companions are rare (<5% occurence rate). I have worked on a project that invovled the characterization of a companion at the substellar boundary in the Beta Pictoris Moving Group. The object I studied, 2M0443+3723 B  had a peculiar nature compared to other similar substellar objects in this moving group. Along with this, despite a literature history of proposed membership in the Beta Pictoris Moving Group, current membership tools show low probability of membership, indicating the object may be a kinematic outlier.  </p>
-								   <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...896..173P/abstract" class="button primary small">Learn More</a>
+							       <div class="image">
+									   <img src="images/LBT.jpg" alt="" />
+									   <p style="text-align: center;"> The Large Binocular Telescope Interferometer <i>(NASA/JPL-Caltech)</i> </p>
+									   <img src="images/DAFN.jpg" alt="" />
+									   <p style="text-align: center;"> DAFN setup <a href="https://ui.adsabs.harvard.edu/abs/2020AJ....160..210W/abstract"><i>(Wang & Jurgenson 2020)</i></a> </p>
+								   </div>
+								   <div class="content">
+									   <h2>Dual-aperture fiber nuller <br />
+									   </h2>
+									   <p> I am working with Professor Ji Wang and OSU's Imaging Sciences Lab towards developing a <b style="color:#B4A9DD;"><i>dual-aperture fiber nuller</b></i> (DAFN) testbed as a technology to bridge the gap in giant exoplanet characterization between hot Jupiters around ~0.1 AU and cold Jupiters beyond 10 AU. Such an instrument splits the source light into two beams that are offset in phase by π before they are allowed to interfere and couple into a single mode fiber. In this way, the on-axis light (starlight) is “nulled” while off-axis light (planet light) is transmitted to a high-resolution spectrograph to further distinguish the planet’s atmospheric signature from the host star’s light. This design harnesses interferometry to cost-effectively improve angular resolution rather than increasing aperture size. We are aiming to deploy the DAFN concept onto preexisting interferometric frameworks such as the <a href="https://nexsci.caltech.edu/missions/LBTI/">Large Binocular Telescope Interferometer</a>. Our testbed will benefit upcoming prospective exoplanet direct imaging missions, i.e. HabEx and LUVOIR, and will be synergistic with the proposed LIFE and LISA interferometric missions. </p>
 							       </div>
 							   </section>
 						       </section>							
